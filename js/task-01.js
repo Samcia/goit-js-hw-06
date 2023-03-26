@@ -21,13 +21,13 @@ for (const element of itemLi) {
 
 // Metoda II
 
-const itemCounter = document.querySelectorAll(".item");
+/*const itemCounter = document.querySelectorAll(".item");
 console.log(`Number of categories: ${itemCounter.length} `);
 
 /*3.Wykonuje iteracje każdego elementu pseudotablicy.
   4. W konsoli odczytuje element h2 i długość pseudotablicy elementów li*/
 
-itemCounter.forEach((element) => {
+/*itemCounter.forEach((element) => {
   const itemCategory = element.querySelector("h2");
   const itemElements = element.querySelectorAll("li");
   console.log(`Category: ${itemCategory.innerHTML}`);
